@@ -5,7 +5,7 @@ import os
 def fetch_initial_statcast_data():
     print("Fetching Statcast data. This might take a minute...")
     
-    # Grab the first week of the 2024 season as our test sample
+    # Grab the first week of the 2024 season as test sample
     data = pyb.statcast(start_dt="2024-03-28", end_dt="2024-04-04")
     
     # Ensure the data directory exists
