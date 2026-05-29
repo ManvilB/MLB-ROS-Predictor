@@ -13,7 +13,7 @@ The project is decoupled into a Python backend and a React frontend. You will ne
 
 ### Start the FastAPI Backend and Next.js Frontend
 ```bash
-git clone [https://github.com/yourusername/mlb-ros-predictor.git](https://github.com/yourusername/mlb-ros-predictor.git)
+git clone https://github.com/ManvilB/MLB-ROS-Predictor.git
 cd mlb-ros-predictor
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
