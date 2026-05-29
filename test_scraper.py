@@ -11,7 +11,7 @@ def fetch_initial_statcast_data():
     # Ensure the data directory exists
     os.makedirs("data", exist_ok=True)
     
-    # Save to CSV so we don't have to query the API every time we test
+    # Save to CSV
     filepath = "data/test_statcast_2024.csv"
     data.to_csv(filepath, index=False)
     
